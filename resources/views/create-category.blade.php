@@ -10,7 +10,7 @@
 <body>
     <div class='container pt-4'>
         <div class='row'>
-            <div class='col-md-12'>
+            <div class='col-md-4'>
                 <div class='card'>
                     <div class='card-header'>
                         <h1>Create Category</h1>
@@ -24,7 +24,7 @@
                             </div>
                             <div class='mb-3'>
                                 <label for='description' class='form-label'>Description</label>
-                                <input type='text' class='form-control' id='description' name='description'>
+                                <textarea class="form-control"  name='description'></textarea>
                             </div>
                             <button class="btn btn-dark">Submit</button>
                         </form>
@@ -33,6 +33,6 @@
             </div>
     </div>
     </div>
-    
+
 </body>
 </html>
